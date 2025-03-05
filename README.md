@@ -1,3 +1,5 @@
+# No modifications have been made to code, just the addition of a dockerfile with a github workflow for automated building
+
 # sickle - A windowed adaptive trimming tool for FASTQ files using quality
 
 ## About
