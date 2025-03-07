@@ -1,4 +1,11 @@
-# No modifications have been made to code, just the addition of a dockerfile with a github workflow for automated building
+## No modifications have been made to code, just the addition of a dockerfile with a github workflow for automated building
+
+This container is now available from docker hub, and can be run as below:
+
+```
+apptainer build sickle.sif docker://ebird013/sickle:latest
+apptainer exec sickle --help
+```
 
 # sickle - A windowed adaptive trimming tool for FASTQ files using quality
 
